@@ -1,0 +1,58 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+  background-color: #0D152B;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100% !important;
+}
+.logo {
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 10px;
+  height: 85px;
+  width: 85px;
+  margin-left: 85rem;
+
+
+}
+
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_options {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.headerOption_one {
+  font-size: 10px;
+}
+.headerOption_two {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_basket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.Basket {
+  color: #fff;
+  transform: scale(1.4);
+}
+
+.header__optionBasket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
