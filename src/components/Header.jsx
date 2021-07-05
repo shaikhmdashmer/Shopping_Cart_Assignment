@@ -7,7 +7,7 @@ import { useStateValue } from "./stateProvider";
 
 
 const Header = () => {
-  const [{ basket, },] = useStateValue();
+  const [{ basket }] = useStateValue();
 
   return (
     <>

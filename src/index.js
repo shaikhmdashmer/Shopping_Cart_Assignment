@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux';
-import { configureStore } from './state/Store/configureStore';
+
+
 import { StateProvider } from './components/stateProvider';
 import reducer, { initialState } from './state/Reducer/cartReducer';
 
-const store = configureStore();
+
 
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
-   <Provider store={store} >
+  
    <App />
-   </Provider>
+   
    </StateProvider>
    
    

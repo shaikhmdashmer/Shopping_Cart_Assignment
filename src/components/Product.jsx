@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import "./product.css";
 import { useStateValue } from './stateProvider';
 
-const Product = ({curitem,title}) => {
+const Product = ({curitem}) => {
    console.log("data===>",curitem);
 
 const [{basket},dispatch]= useStateValue();
@@ -15,7 +15,7 @@ const addToshoppingCart=()=>{
             id : curitem.id,
             description : curitem.description,
             price : curitem.price,
-            rating : curitem.rating,
+            
             image : curitem.image
         }
     });
